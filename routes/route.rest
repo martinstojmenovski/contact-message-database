@@ -1,0 +1,27 @@
+GET http://localhost:3000/messages
+
+###
+GET http://localhost:3000/messages/643d911ab2e015a12f85d5a2
+
+###
+POST http://localhost:3000/messages
+Content-Type: application/json
+
+{
+    "recipientEmail": "martinstojmenovskim@gmail.com",
+    "recipientText": "I am sending you this message for testing. Martin Stojmenovski"
+}
+
+
+
+###
+DELETE http://localhost:3000/messages/64385ec70737fa714c490661
+
+
+###
+PATCH  http://localhost:3000/messages/643d911ab2e015a12f85d5a2
+Content-Type: application/json
+
+{
+    "recipientEmail": "johnylove@yahoo.com"   
+}
