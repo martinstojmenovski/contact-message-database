@@ -8,8 +8,8 @@ POST http://localhost:3000/messages
 Content-Type: application/json
 
 {
-    "recipientEmail": "martinstojmenovskim@gmail.com",
-    "recipientText": "I am sending you this message for testing. Martin Stojmenovski"
+    "recipientEmail": "joebiden@gmail.com",
+    "recipientText": "I am inviting you in the white house."
 }
 
 
@@ -19,9 +19,9 @@ DELETE http://localhost:3000/messages/64385ec70737fa714c490661
 
 
 ###
-PATCH  http://localhost:3000/messages/643d911ab2e015a12f85d5a2
+PATCH  http://localhost:3000/messages/643eecd1a5e0e11f315cc41a
 Content-Type: application/json
 
 {
-    "recipientEmail": "johnylove@yahoo.com"   
+    "recipientEmail": "barakobama@yahoo.com"   
 }
