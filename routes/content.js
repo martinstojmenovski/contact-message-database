@@ -53,7 +53,7 @@ router.delete('/:id', getContent, async (req, res) => {
         await res.content.deleteOne()
         res.json({ message: 'Deleted Email' })
     } catch (err) {
-        res.status(500).json({ message: err.message })
+        res.status(500).json({ message: err.message }) 
     }
 })
 
