@@ -8,8 +8,8 @@ POST http://localhost:3000/messages
 Content-Type: application/json
 
 {
-    "recipientEmail": "joebiden@gmail.com",
-    "recipientText": "I am inviting you in the white house."
+    "recipientEmail": "limotovail@gmail.com",
+    "recipientText": "Heyy do you want to work with me?"
 }
 
 
