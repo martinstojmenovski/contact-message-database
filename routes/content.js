@@ -1,12 +1,14 @@
 const express = require('express')
 const router = express.Router()
 const Content = require('../models/content.js')
-
+const requestIp = require('request-ip')
 
 
 
 //Getting all
 router.get('/', async (req, res) => {
+    const clientIp = requestIp.getClientIp(req)
+    console.log(clientIp)
     try {
         const content = await Content.find()
         res.json(content)

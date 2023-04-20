@@ -1,7 +1,8 @@
 GET http://localhost:3000/messages
 
 ###
-GET https://project-messages.herokuapp.com/messages
+GET https://project-messages.herokuapp.com/messages/
+
 
 ###
 GET http://localhost:3000/messages/643d911ab2e015a12f85d5a2
